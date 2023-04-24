@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FCFDFD"
+    tools:context=".GameState">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/trophy"
+            android:layout_width="304dp"
+            android:layout_height="224dp"
+            android:layout_marginTop="80dp"
+            android:contentDescription="@string/result"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/_5485" />
+
+        <TextView
+            android:id="@+id/game_message"
+            android:layout_width="311dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="36dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="@string/win_message"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/congrats" />
+
+        <TextView
+            android:id="@+id/congrats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="@string/congratulations"
+            android:textAlignment="center"
+            android:textColor="#FF0000"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/game_message"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/game_message"
+            app:layout_constraintTop_toBottomOf="@+id/trophy" />
+
+        <Button
+            android:id="@+id/continue_play"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:background="#C0E3FF"
+            android:text="@string/continue_playing"
+            android:textColor="#6E0F0F"
+            app:backgroundTint="#8AFF0000"
+            app:layout_constraintEnd_toEndOf="@+id/game_message"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/game_message"
+            app:layout_constraintTop_toBottomOf="@+id/game_message" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

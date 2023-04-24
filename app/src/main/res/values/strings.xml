@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Saper</string>
+    <string name="minesweeper">Minesweeper</string>
+    
+    <string name="saper">Saper</string>
+
+
+    <string name="start_game">Rozpocznij nową grę</string>
+    <string name="todo">TODO</string>
+    <string name="or">OR</string>
+    <string name="make_custom_board">Make Custom Board</string>
+    <string name="set_up_your_own_board">SET UP YOUR OWN BOARD</string>
+    <string name="view_instructions">View Instructions</string>
+    <string name="enter_no_of_rows">Enter Rows</string>
+    <string name="rows">Rows</string>
+    <string name="enter_no_of_columns">Enter Columns</string>
+    <string name="columns">Columns</string>
+    <string name="enter_no_of_mines">Enter Mines</string>
+    <string name="mines">Mines</string>
+    <string name="best_time">Best Time</string>
+    <string name="restart">Restart</string>
+    <string name="timer">Timer</string>
+    <string name="difficulty_message">Difficulty Level Not Selected</string>
+    <string name="select_difficulty_message">You need to select one of the difficulty levels to start playing the game.</string>
+    <string name="hard">Hard</string>
+    <string name="_00_00">00:00</string>
+    <string name="choice_to_flag_or_to_reveal">Choice-to flag or to reveal</string>
+    <string name="mines_left">Mines Left</string>
+    <string name="_0">0</string>
+    <string name="win_message">Wygrałeś grę!!</string>
+    
+    <string name="congratulations">Gratulacje!!</string>
+    
+    <string name="result">Result</string>
+
+    <string name="lost_message">Miałeś pecha!!</string>
+    <string name="game_loss">Przegrałeś!!</string>
+
+    <string name="stats_label">View your stats</string>
+    <string name="continue_playing">Wróć do menu głównego</string>
+    <string name="exit">Exit</string>
+    <string name="na">NA</string>
+    <string name="best_game_time">Best Game Time</string>
+    <string name="last_game_time">Last Game Time</string>
+    <string name="games_played">Games Played</string>
+    <string name="games_lost">Games Lost</string>
+    <string name="games_won">Games Won</string>
+    <string name="game_stats">Game Stats</string>
+
+    <string name="return_call">return</string>
+    <string name="abort">Are you sure you want to abort the ongoing game?</string>
+    <string name="exit_game">Exit Game</string>
+</resources>
